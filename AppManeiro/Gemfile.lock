@@ -43,9 +43,10 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   calabash-android
 
 BUNDLED WITH
-   1.12.5
+   1.14.6

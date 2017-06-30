@@ -9,12 +9,24 @@ Dado(/^que estou na tela inicial$/) do
   @page.view_exists "Tela de início"
 end
 
+Dado(/^sou redirecionado para tela inicial$/) do
+  @page.view_exists "Tela de início"
+end
+
+Dado(/^que estou na tela frase$/) do
+  @page.view_exists "Tela Gerador de frase"
+end
+
 Dado(/^sou redirecionado para tela de gerar frases$/) do
   @page.view_exists "Gerador de frase"
 end
 
 Dado(/^sou redirecionado para tela de sobre$/) do
   @page.view_exists "Sobre"
+end
+
+Dado(/^sou redirecionado para tela de configurações$/) do
+  @page.view_exists "Configurações"
 end
 
 Dado(/^preencho o campo "([^"]*)" com o valor "([^"]*)"$/) do |campo, valor|
